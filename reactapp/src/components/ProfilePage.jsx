@@ -213,7 +213,7 @@ function ProfilePage() {
                     className="list-group-item d-flex justify-content-between align-items-center"
                   >
                     <a
-                      href={`http://localhost:8080/documents/download/${doc.id}`}
+                      href={`https://healthcoachapplication-backend.onrender.com/documents/download/${doc.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="fw-bold text-success"
