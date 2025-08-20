@@ -1,0 +1,32 @@
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 3rem 0;
+  background-image: url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fHww?w=1200&auto=format&fit=crop&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.profile-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  z-index: 1;
+}
+
+.profile-card {
+  flex: 0 0 75%; /* 3/4 of the page */
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  background: white;
+}
+
+.profile-loading {
+  z-index: 2;
+}
