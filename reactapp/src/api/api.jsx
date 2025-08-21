@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "https://healthcoachapplication-backend.onrender.com";
 
 // ================== AXIOS INSTANCE WITH TOKEN ==================
 const api = axios.create({
